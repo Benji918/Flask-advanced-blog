@@ -7,8 +7,8 @@ app = Flask(__name__)
 URL = 'https://api.npoint.io/c790b4d5cab58020d391'
 response = requests.get(url=URL)
 all_posts = response.json()
-MY_EMAIL = 'kodiugos@gmail.com'
-PWD = 'llhytkakbfhnikci'
+MY_EMAIL = ''
+PWD = ''
 
 
 @app.route('/index')
